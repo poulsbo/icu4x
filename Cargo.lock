@@ -1645,6 +1645,7 @@ dependencies = [
  "num-traits",
  "potential_utf",
  "serde",
+ "serde_json",
  "smallvec",
  "tinystr",
  "writeable",

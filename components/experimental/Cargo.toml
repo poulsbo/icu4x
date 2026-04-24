@@ -71,6 +71,7 @@ icu_provider = { path = "../../provider/core", features = ["std"]}
 icu_locale_data = { workspace = true }
 icu_properties_data = { workspace = true }
 icu_normalizer_data = { workspace = true }
+serde_json = { workspace = true }
 
 [features]
 default = ["compiled_data"]
@@ -108,6 +109,10 @@ path = "tests/transliterate/lower_ascii.rs"
 [[test]]
 name = "units_test"
 path = "tests/units/units_test.rs"
+
+[[test]]
+name = "message2_test"
+path = "tests/message2/tests.rs"
 
 [lints]
 workspace = true
